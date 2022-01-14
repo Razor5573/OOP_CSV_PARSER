@@ -1,0 +1,2 @@
+Handler: In configurations there were invalid arguments than expected!
+Main: program stopped!
