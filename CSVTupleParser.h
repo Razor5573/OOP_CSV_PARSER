@@ -8,6 +8,7 @@
 #include <locale>
 #include <algorithm>
 #include <stdexcept>
+#include <memory>
 
 #include "TemplateTuplePrinter.h"
 #include "TemplateTupleReader.h"
@@ -53,7 +54,7 @@ namespace CSVParser {
         class iterator : public std::iterator<std::input_iterator_tag, std::tuple<Args...>> {
         private:
             std::ifstream &itInputStream_;
-            std::tuple<Args...> *itTuple_ = nullptr;
+            std::shared_ptr<std::tuple<Args...>> itTuple_;
             unsigned int itCurrentRow_;
             std::string itCurrentLine_;
             char itDelimiter_;
@@ -155,14 +156,13 @@ namespace CSVParser {
                     itScreenedSymbol_(screenedSymbol),
                     itPosition_(streamPosition) {
 
-                itTuple_ = new std::tuple<Args...>;
+                itTuple_ = std::shared_ptr<std::tuple<Args...>>(new std::tuple<Args...>);
                 if (!isCsvInputStreamReachedEndOfFile()) {
                     readNextTuple();
                 }
             }
 
             ~iterator() {
-                delete itTuple_;
             }
 
             iterator &operator++() {

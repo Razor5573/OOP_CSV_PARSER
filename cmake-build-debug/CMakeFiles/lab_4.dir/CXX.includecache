@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/nikit/CLionProjects/CSV_Parser4/CSVParserArgsHandler.h
+C:/progects/c++/OOP_CSV_PARSER/CSVParserArgsHandler.h
 string
 -
 stdexcept
@@ -16,13 +16,13 @@ iostream
 algorithm
 -
 
-C:/Users/nikit/CLionProjects/CSV_Parser4/CSVParserException.h
+C:/progects/c++/OOP_CSV_PARSER/CSVParserException.h
 exception
 -
 string
 -
 
-C:/Users/nikit/CLionProjects/CSV_Parser4/CSVTupleParser.h
+C:/progects/c++/OOP_CSV_PARSER/CSVTupleParser.h
 fstream
 -
 vector
@@ -37,14 +37,16 @@ algorithm
 -
 stdexcept
 -
+memory
+-
 TemplateTuplePrinter.h
-C:/Users/nikit/CLionProjects/CSV_Parser4/TemplateTuplePrinter.h
+C:/progects/c++/OOP_CSV_PARSER/TemplateTuplePrinter.h
 TemplateTupleReader.h
-C:/Users/nikit/CLionProjects/CSV_Parser4/TemplateTupleReader.h
+C:/progects/c++/OOP_CSV_PARSER/TemplateTupleReader.h
 CSVParserException.h
-C:/Users/nikit/CLionProjects/CSV_Parser4/CSVParserException.h
+C:/progects/c++/OOP_CSV_PARSER/CSVParserException.h
 
-C:/Users/nikit/CLionProjects/CSV_Parser4/TemplateTuplePrinter.h
+C:/progects/c++/OOP_CSV_PARSER/TemplateTuplePrinter.h
 cstdio
 -
 tuple
@@ -52,7 +54,7 @@ tuple
 iostream
 -
 
-C:/Users/nikit/CLionProjects/CSV_Parser4/TemplateTupleReader.h
+C:/progects/c++/OOP_CSV_PARSER/TemplateTupleReader.h
 iostream
 -
 tuple
@@ -68,15 +70,15 @@ stdexcept
 type_traits
 -
 CSVParserException.h
-C:/Users/nikit/CLionProjects/CSV_Parser4/CSVParserException.h
+C:/progects/c++/OOP_CSV_PARSER/CSVParserException.h
 
-C:/Users/nikit/CLionProjects/CSV_Parser4/main.cpp
+C:/progects/c++/OOP_CSV_PARSER/main.cpp
 iostream
 -
 TemplateTuplePrinter.h
-C:/Users/nikit/CLionProjects/CSV_Parser4/TemplateTuplePrinter.h
+C:/progects/c++/OOP_CSV_PARSER/TemplateTuplePrinter.h
 CSVTupleParser.h
-C:/Users/nikit/CLionProjects/CSV_Parser4/CSVTupleParser.h
+C:/progects/c++/OOP_CSV_PARSER/CSVTupleParser.h
 CSVParserArgsHandler.h
-C:/Users/nikit/CLionProjects/CSV_Parser4/CSVParserArgsHandler.h
+C:/progects/c++/OOP_CSV_PARSER/CSVParserArgsHandler.h
 
